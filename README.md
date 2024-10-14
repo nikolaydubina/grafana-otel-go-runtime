@@ -1,4 +1,4 @@
-Grafana Dashboard for OTEL Go Runtime[^1]
+Grafana Dashboard for OpenTelemetry Go Runtime[^1]
 
 Uses metrics from go-otel-runtime.[^2][^3]
 
