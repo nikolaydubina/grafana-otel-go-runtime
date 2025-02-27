@@ -15,7 +15,7 @@
             "type": "grafana",
             "id": "grafana",
             "name": "Grafana",
-            "version": "11.4.0"
+            "version": "11.5.2"
         },
         {
             "type": "datasource",
@@ -142,11 +142,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -181,6 +182,7 @@
                         "axisColorMode": "text",
                         "axisLabel": "",
                         "axisPlacement": "auto",
+                        "axisSoftMin": 0,
                         "barAlignment": 0,
                         "barWidthFactor": 0.6,
                         "drawStyle": "line",
@@ -240,11 +242,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -292,6 +295,7 @@
                         "axisColorMode": "text",
                         "axisLabel": "",
                         "axisPlacement": "auto",
+                        "axisSoftMin": 0,
                         "barAlignment": 0,
                         "barWidthFactor": 0.6,
                         "drawStyle": "line",
@@ -352,11 +356,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -391,6 +396,7 @@
                         "axisColorMode": "text",
                         "axisLabel": "",
                         "axisPlacement": "auto",
+                        "axisSoftMin": 0,
                         "barAlignment": 0,
                         "barWidthFactor": 0.6,
                         "drawStyle": "line",
@@ -451,11 +457,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -490,6 +497,7 @@
                         "axisColorMode": "text",
                         "axisLabel": "",
                         "axisPlacement": "auto",
+                        "axisSoftMin": 0,
                         "barAlignment": 0,
                         "barWidthFactor": 0.6,
                         "drawStyle": "line",
@@ -550,11 +558,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -648,11 +657,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -747,11 +757,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -847,11 +858,12 @@
                     "showLegend": false
                 },
                 "tooltip": {
+                    "hideZeros": false,
                     "mode": "multi",
                     "sort": "none"
                 }
             },
-            "pluginVersion": "11.4.0",
+            "pluginVersion": "11.5.2",
             "targets": [
                 {
                     "datasource": {
@@ -891,20 +903,21 @@
                     "query": "label_values(go_goroutine_count,job)",
                     "refId": "PrometheusVariableQueryEditor-VariableQuery"
                 },
-                "refresh": 1,
+                "refresh": 2,
                 "regex": "",
+                "sort": 1,
                 "type": "query"
             }
         ]
     },
     "time": {
-        "from": "now-1h",
+        "from": "now-30m",
         "to": "now"
     },
     "timepicker": {},
     "timezone": "browser",
     "title": "Go Runtime",
     "uid": "bdz8zo3962bcwd",
-    "version": 2,
+    "version": 6,
     "weekStart": ""
 }
