@@ -1,5 +1,5 @@
 <p align="center">
-  ✨ Sponsored by <a href="https://ndx.one/?ct=github">NDX AI Shopping Assistant</a>
+  ✨ Sponsored by <a href="https://ndx.one/?ct=github">NDX Technologies</a>
 </p>
 
 Grafana Dashboard for Open Telemetry Go Runtime[^1]
