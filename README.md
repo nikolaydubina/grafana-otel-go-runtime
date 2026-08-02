@@ -1,7 +1,3 @@
-<p align="center">
-  ✨ Sponsored by <a href="https://ndx.one/?ct=github">NDX Technologies</a>
-</p>
-
 Grafana Dashboard for Open Telemetry Go Runtime[^1]
 Uses metrics from go-otel-runtime.[^2][^3]
 
